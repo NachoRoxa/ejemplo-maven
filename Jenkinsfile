@@ -36,7 +36,7 @@ pipeline {
             steps{
                 script{
                     sh "echo 'Running .Jar'"
-                    sh "java -jar DevOpsUsach2020-0.0.1.jar"
+                    sh "java -jar build/DevOpsUsach2020-0.0.1.jar"
                 }
             }
         }
